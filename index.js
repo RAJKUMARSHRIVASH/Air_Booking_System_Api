@@ -13,6 +13,9 @@ app.use("/api/flights",flightRouter);
 app.use("/api",bookingRouter);
 app.use("/api",bookingRouter);
 
+app.get("/",(req,res)=>{
+    res.json("Home page\nTo get the flights and all bookings hit the endpoint /api/flights and /api/dashboard")
+})
 
 app.listen(process.env.port,async()=>{
     try {
