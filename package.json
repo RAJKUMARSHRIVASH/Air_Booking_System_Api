@@ -1,7 +1,7 @@
 {
   "name": "air_booking_system_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. **POST** `api/user/register` --> for registering of the user into the application\r 2. **POST** `api/user/login` --> for login of the user into the application\r 3. **POST** `api/flights` --> This endpoint will allow users to add new flights to the system.\r 4. **GET** `api/flights` --> This endpoint will allow users to get all flights available.\r 5. **GET** `api/flights/:id` --> This endpoint will allow users to get the specific flight of that id.\r 6. **PATCH** `api/flights/:id` --> This patch request will allow users to update the specific flight of that id.\r 7. **DELETE** `api/flights/:id` --> This DELETE request will allow users to DELETE the specific flight of that id.\r 8. **POST** `api/booking` --> This endpoint will allow the user to book flights.\r 9. **GET** `api/dashboard` --> This point will list all the bookings so far with the user and flight details.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
