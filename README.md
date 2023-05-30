@@ -1,5 +1,8 @@
 # Air_Booking_System_Api
 
+## backend deployed URL is
+`https://air-booking-system-api.onrender.com/`
+
 ## The API end points of this app are:-
 
 1. **POST** `api/user/register` --> for registering of the user into the application
