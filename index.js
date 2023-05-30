@@ -10,8 +10,8 @@ const app = express();
 app.use(express.json());
 app.use("/api/user",userRouter);
 app.use("/api/flights",flightRouter);
-app.use("/api/booking",bookingRouter);
-app.use("/api/dashboard",bookingRouter);
+app.use("/api",bookingRouter);
+app.use("/api",bookingRouter);
 
 
 app.listen(process.env.port,async()=>{
